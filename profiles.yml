@@ -1,0 +1,26 @@
+Airbnb_dbt:
+  outputs:
+    dev:
+      account: VYIIKYM-GN15832
+      database: VIKRAM_DBT
+      password: Training123456$
+      role: ACCOUNTADMIN
+      schema: dbt_target
+      threads: 2
+      type: snowflake
+      user: aug2026learn
+      warehouse: DBT_LARGE_WH
+  target: dev
+Airbnb_dbt_weekend:
+  outputs:
+    dev:
+      account: SNBYTEY-EO39087
+      database: AIRBNB_DBT
+      password: Training123456$
+      role: ACCOUNTADMIN
+      schema: DBT_TARGET
+      threads: 1
+      type: snowflake
+      user: sep2026learn
+      warehouse: COMPUTE_WH
+  target: dev
