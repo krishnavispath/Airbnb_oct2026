@@ -1,0 +1,1 @@
+{{ select_negative_values(ref('dim_listings_cleansed'), 'minimum_nights') }}

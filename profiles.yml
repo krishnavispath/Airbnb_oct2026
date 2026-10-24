@@ -14,13 +14,13 @@ Airbnb_dbt:
 Airbnb_dbt_weekend:
   outputs:
     dev:
-      account: SNBYTEY-EO39087
+      account: GCFHHNG-RYC78082
       database: AIRBNB_DBT
       password: Training123456$
       role: ACCOUNTADMIN
       schema: DBT_TARGET
       threads: 1
       type: snowflake
-      user: sep2026learn
+      user: oct2026learn
       warehouse: COMPUTE_WH
   target: dev
